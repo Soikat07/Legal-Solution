@@ -53,9 +53,28 @@
                 <a class="nav-link" href="#">Contact Us <i class="fa-solid fa-angle-right"></i></a>
               </li>
             </ul>
-            <button class="btn btn-outline-secondary primary" type="submit">
-              Free Consultation
-            </button>
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-outline-secondary primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Free Consultation
+</button>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Zoom Live Session</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        We are always ready to help you in any problems. We have the best experienced consultants and they are very professional also. You can discuss your probem direct with them through the live session. Thank you.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Later</button>
+        <button type="button" class="btn btn-primary">Join Now</button>
+      </div>
+    </div>
+  </div>
+</div>
           </div>
         </div>
       </nav>
@@ -400,7 +419,7 @@
                     aria-expanded="false"
                     aria-controls="panelsStayOpen-collapseFour"
                   >
-                    3.What is Semantic tag?
+                    4.What is Semantic tag?
                   </button>
                 </h2>
                 <div
@@ -488,7 +507,7 @@
               placeholder="Your message"
             ></textarea>
             <div class="d-grid">
-              <button class="btn btn-outline-light primary my-3">
+              <button class="btn btn-outline-secondary primary my-3">
                 Send message
               </button>
             </div>
