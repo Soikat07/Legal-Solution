@@ -1,0 +1,11 @@
+.primary{
+     background-color: #B68C5A;
+     color: white;
+     border: none;
+}
+.banner{
+     background-image: url(../images/Rectangle\ 4.png),url(../images/Rectangle\ 5.png);
+     background-blend-mode: overlay;
+     height: 100vh;
+     background-repeat: no-repeat;
+}
